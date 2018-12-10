@@ -1,0 +1,54 @@
+{
+  "name": "@ng-apimock/open-api",
+  "description": "Mock file generator from open-api specifications",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ng-apimock/open-api#readme",
+  "author": {
+    "name": "Mischa Dasberg",
+    "email": "mischa@dasberg.nl"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "precompile": "rm -rf dist",
+    "compile": "tsc",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jasmine-ts --config=jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ng-apimock/open-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ng-apimock/open-api/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ng-apimock/open-api/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "apimock",
+    "ng-apimock",
+    "open-api",
+    "swagger",
+    "api",
+    "mocks"
+  ],
+  "devDependencies": {
+    "@types/fs-extra": "5.0.4",
+    "@types/jasmine": "3.3.0",
+    "@types/sinon": "5.0.7",
+    "fs-extra": "7.0.1",
+    "jasmine": "3.3.1",
+    "jasmine-ts": "0.3.0",
+    "sinon": "7.2.0",
+    "ts-node": "7.0.1",
+    "tslint": "5.11.0",
+    "tslint-eslint-rules": "5.4.0",
+    "typescript": "3.2.2",
+    "vrsource-tslint-rules": "6.0.0"
+  },
+  "dependencies": {}
+}

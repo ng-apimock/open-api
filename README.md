@@ -1,0 +1,2 @@
+# ng-apimock/open-api [![CircleCI](https://circleci.com/gh/ng-apimock/open-api.svg?style=svg)](https://circleci.com/gh/ng-apimock/open-api)  [![dependency Status](https://img.shields.io/david/ng-apimock/open-api.svg)](https://david-dm.org/ng-apimock/open-api) [![devDependency Status](https://img.shields.io/david/dev/ng-apimock/open-api.svg)](https://david-dm.org/ng-apimock/open-api#info=devDependencies)
+Mock file generator from open-api specifications. 
