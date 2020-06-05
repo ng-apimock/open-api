@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import container from './ioc-container';
 import {MixinService} from './mixins/mixin.service';
 import {Processor} from './processor/processor';
