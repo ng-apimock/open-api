@@ -1,0 +1,30 @@
+{
+  "identifier": "Pet",
+  "mappers": [
+    {
+      "property": "name",
+      "value": "my-name"
+    }, {
+      "property": "status",
+      "value": "available"
+    },
+    {
+      "property": "photoUrls.items",
+      "value": [{
+        "chance": {
+          "photoUrl": {
+            "name": "awesome",
+            "ext": "png"
+          }
+        }
+      },{
+        "chance": {
+          "photoUrl": {
+            "name": "awesome",
+            "ext": "jpg"
+          }
+        }
+      }]
+    }
+  ]
+}
