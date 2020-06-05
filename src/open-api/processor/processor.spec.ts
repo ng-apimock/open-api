@@ -27,7 +27,7 @@ describe('Processor', () => {
 
         schemaService = container.get('SchemaService');
 
-        processor = container.get('OpenApiProcessor');
+        processor = container.get('Processor');
     });
 
     describe('process', () => {
