@@ -61,7 +61,7 @@
     "json-schema-deref-sync": "^0.7.0",
     "json-schema-test-data-generator": "^0.1.1",
     "jsonschema": "^1.2.4",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^2.6.1",
     "open-api-test-generator": "^0.1.5",
     "reflect-metadata": "^0.1.12",
     "swagger-schema-official": "^2.0.0-bab6bed",
